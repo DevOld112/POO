@@ -1,8 +1,10 @@
-#Ejercicios de Programacion Orientada a Objetos
+# :closed_book: Ejercicios de Programacion Orientada a Objetos 
 
-##Objetivos:
+## :white_check_mark: Objetivos :
 
-1- Mejorar la Logica de programacion.
-2- Practicar el uso de comandos git, por ello la razon de este repositorio
-3- Dominar la programacion orientada a objetos
+1) :bulb: Mejorar la Logica de programacion.
+
+2) :runner: Practicar el uso de comandos git, por ello la razon de este repositorio
+
+3) :bicyclist: Dominar la programacion orientada a objetos
 
