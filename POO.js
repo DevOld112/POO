@@ -62,3 +62,29 @@ let circuloPrimario = new circulo(15);
 //Ejecucion de metodos
 
 circuloPrimario.ejecutarCalculos();
+
+// Ejercicio - 03 
+
+//Crea una clase Estudiante con propiedades como nombre, edad, curso, calificaciones, 
+//y metodos como calcularPromedio(), verCalificaciones().
+class estudiante{
+    constructor(nombre, edad, curso, calificaciones){
+        this.nombre = nombre;
+        this.edad = edad;
+        this.curso = curso;
+        this.calificaciones = calificaciones;
+    }
+    calcularPromedio(){
+        let sumaPromedio = this.calificaciones.reduce((acc, arr) => acc + arr, 0)
+        let divisor = this.calificaciones.length
+        return sumaPromedio / divisor
+    }
+    verCalificaciones(){
+        return `${this.nombre}, del curso de ${this.curso}, ha obtenido: ${this.calificaciones[0]} en el Primer Parcial, ${this.calificaciones[1]} en el Segundo Parcial, ${this.calificaciones[2]} en el Tercer Parcial, ${this.calificaciones[3]} en el Cuarto Parcial, ${this.calificaciones[4]} en el Quinto Parcial`
+    }
+}
+
+let daniel = new estudiante('Daniel', 13, 'Matematica', [17, 15, 20, 18, 20])
+
+daniel.calcularPromedio();
+daniel.verCalificaciones();
