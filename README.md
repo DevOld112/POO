@@ -1,4 +1,4 @@
-# :closed_book: Ejercicios de Programacion Orientada a Objetos 
+# :closed_book: Ejercicios de Programacion Orientada a Objetos JavaScript
 
 ## :white_check_mark: Objetivos :
 
@@ -8,3 +8,16 @@
 
 3) :bicyclist: Dominar la programacion orientada a objetos
 
+## Enunciados
+
+### Ejercicio 01:
+
+ Crea una clase *Perro* con propiedades como nombre, raza, edad, dueño, y métodos como _ladrar()_, _correr()_, _sentarse()_.
+
+### Ejercicio 02:
+
+Crea una clase *Círculo* con propiedades como radio, y métodos como _calcularArea(),_ _calcularCircunferencia()._
+
+### Ejercicio 03: 
+
+Crea una clase *Estudiante* con propiedades como nombre, edad, curso, calificaciones, y metodos como _calcularPromedio()_, _verCalificaciones()._
